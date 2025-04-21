@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu()">☰</div>
+    <ul class="menu" id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certification">Certification</a></li>
+      <li><a href="#achivement">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+<!-- body -->
+<div class="hero" id="home">
+    <img src="tarunsai_ai_01.jpg" alt="Tarunsai Image" />
+    <div class="hero-text">
+      <h1>Hello, I'm Tarunsai</h1>
+      <p>Frontend & Python Developer</p><br><br><br>
+      <div class="hero-links">
+        <a href="#contact" target="_self">Hire Me</a>
+        <a href="https://www.linkedin.com/in/tarunsai04/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Madhari-tarunsai" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <section id="about" class="section">
+    <div class="about-container">
+      <img src="ai_02.jpg" alt="About Me Image" class="about-img" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am passionate about building user-friendly web applications using modern technologies.
+          I have experience with HTML, CSS, JavaScript, Bootstrap, and Python. I am currently learning React.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- education -->
+    <!-- education -->
+    <div class="education-section" id="education">
+        <h1>Education</h1>
+        <div class="card-container" id="education">
+          <div class="card">
+            <img
+              src="https://qph.cf2.quoracdn.net/main-qimg-4ca524abfa147fd9dff6d0c4ff11a9a0-lq"
+              alt="College 1"
+            />
+            <div class="card-info">
+              <h3>BVRIT</h3>
+              <h3>Board of education: JNTU</h3>
+              <p>Pass Year: 2023</p>
+              <p>Percentage: 73%</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <img
+              src="https://content.jdmagicbox.com/v2/comp/hyderabad/f3/040pxx40.xx40.211202202357.i4f3/catalogue/sri-aadarsh-junior-college-king-koti-hyderabad-junior-colleges-beighi6bzs.jpg"
+              alt="College 2"
+            />
+            <div class="card-info">
+              <h3>Adharsh Jr College</h3>
+              <h3>Board of education: State Board Of Education</h3>
+              <p>Pass Year: 2019</p>
+              <p>Percentage: 87%</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJmws4C6QzNvQgMzj9PRe7Q-tf1CXfnhBJQ&s"
+              alt="College 3"
+            />
+            <div class="card-info">
+              <h3>Panchavati High School</h3>
+              <h3>Board of education: Secondary School Certificate or Secondary</h3>
+              <p>Pass Year: 2017</p>
+              <p>Percentage: 72%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- education end -->
+  <!-- projects -->
+  <section class="projects-section" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- 1. Tour Planner Website -->
+      <div class="project-card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/4/297084137/ZR/MH/GQ/9160165/international-tour-package.jpg" alt="Tour Planner" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Tour Planner Website</h3>
+          <p class="project-description">An interactive travel planner allowing users to choose destinations, plan itineraries, and estimate budgets. Built using HTML, CSS, and JavaScript.</p>
+          <a href="https://madhari-tarunsai.github.io/Travel-Guide-Creator/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 2. E-Commerce Website -->
+      <div class="project-card">
+        <img src="https://userway.org/blog/wp-content/uploads/2022/01/Reasons-to-make-your-e-commerce-accessible.jpg" alt="E-Commerce" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">E-Commerce Website</h3>
+          <p class="project-description">An online shopping platform with product listings, filtering, shopping cart, and mock checkout functionality using vanilla JS.</p>
+          <a href="https://madhari-tarunsai.github.io/stylish_men-s_wear_min_project/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 3. Calculator -->
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaKVZ0SJRulXqLBqHwmSR049-EqELzDOvyag&s" alt="Calculator" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-description">A basic calculator supporting addition, subtraction, multiplication, and division with a sleek interface.</p>
+          <a href="https://madhari-tarunsai.github.io/calculator-_using_js/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 4. Counter App -->
+      <div class="project-card">
+        <img src="https://m.media-amazon.com/images/I/51jAv2bF-PL._AC_UF894,1000_QL80_.jpg" alt="Counter App" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Counter App</h3>
+          <p class="project-description">A simple counter with increment, decrement, and reset options. Built with JavaScript and styled using CSS animations.</p>
+          <a href="https://madhari-tarunsai.github.io/cout_using_DOM/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 5. WhatsApp UI Clone -->
+      <div class="project-card">
+        <img src="https://5.imimg.com/data5/PR/OE/ZJ/SELLER-6842374/untitled-500x500.png" alt="WhatsApp UI" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">id_card_Dom</h3>
+          <p class="project-description">A front-end clone of the i'd card interface with styled  section using HTML/CSS/JS.</p>
+          <a href="https://madhari-tarunsai.github.io/Madhari-tarunsai-id_card_using_js_DOM-Events/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 6. Digital Clock -->
+      <div class="project-card">
+        <img src="https://assets.nikshanonline.com/wp-content/uploads/2024/06/Alarm-Clock-Rechargable-Digital-Alarm-Clock-1.png" alt="Digital Clock" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Digital Clock</h3>
+          <p class="project-description">A real-time digital clock showing current time in HH:MM:SS format. Includes alarm setting functionality.</p>
+          <a href="https://madhari-tarunsai.github.io/Digital_Time/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+  
+      <!-- 7. Movie UI App -->
+      <div class="project-card">
+        <img src="https://repository-images.githubusercontent.com/429048219/ad43a92d-7c14-470c-934e-8959b197439e" alt="Tour Planner" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">OTP_Genators</h3>
+          <p class="project-description">I Built using HTML, CSS, and JavaScript. OTP_Genators</p>
+          <a href="https://madhari-tarunsai.github.io/OTP_Generator-/" class="live-website-link" target="_blank">View Live Website</a>
+        </div>
+      </div>
+      <!-- 8.upcomming -->
+
+      <div class="project-card">
+        
+        <div class="project-content">
+         
+          <p class="project-description">upcomming projects</p>
+        
+        </div>
+      </div>
+       
+      </div>
+  
+    </div>
+  </section>
+  <!-- skills start -->
+  <div class="container6" id="skills">
+    <h1>My Skills and Proficiency</h1>
+
+    <div class="skills">
+      <div class="skill">
+        <h3>HTML</h3>
+        <p>Proficiency: 85%</p>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <p>Proficiency: 80%</p>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <p>Proficiency: 75%</p>
+      </div>
+      <div class="skill">
+        <h3>Bootstrap</h3>
+        <p>Proficiency: 70%</p>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <p>Proficiency: 70%</p>
+      </div>
+      <div class="skill">
+        <h3>Node.js</h3>
+        <p>Proficiency: 60%</p>
+      </div>
+    </div>
+
+    <h2>Skill Proficiency Pie Chart</h2>
+    <canvas id="pieChart" width="300" height="300"></canvas>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById("pieChart").getContext("2d");
+    const data = {
+      labels: ["HTML", "CSS", "JavaScript", "Bootstrap", "React", "Node.js"],
+      datasets: [{
+        data: [85, 80, 75, 70, 70, 60],
+        backgroundColor: [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56",
+          "#8e44ad",
+          "#4BC0C0",
+          "#FF9F40",
+        ],
+        hoverOffset: 4,
+      }],
+    };
+    const config = {
+      type: "pie",
+      data: data,
+    };
+    new Chart(ctx, config);
+  </script>
+ <!-- certification -->
+ <section class="certification-section" id="certification">
+    <h2>My Certifications</h2>
+    <div class="certification-grid">
+      <!-- Certificate 1 -->
+      <div class="certificate-card">
+        <img src="https://i0.wp.com/winzons.com/wp-content/uploads/2024/06/Frontend-Developer.jpg" alt="Certificate 1" class="certificate-image" />
+        <div class="certificate-content">
+          <h3 class="certificate-title">Frontend Development</h3>
+          <p>Issued by Naresh_IT</p>
+          <!-- <a href="https://your-live-certificate-link1.com" target="_blank" class="certificate-link">View Certificate</a> -->
+        </div>
+      </div>
+  
+      <!-- Certificate 2 -->
+      <div class="certificate-card">
+        <img src="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/08/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg" alt="Certificate 2" class="certificate-image" />
+        <div class="certificate-content">
+          <h3 class="certificate-title">FULL STACK DEVELOPER</h3>
+          <p>Issued by Naresh_IT</p>
+          <!-- <a href="https://your-live-certificate-link2.com" target="_blank" class="certificate-link">View Certificate</a> -->
+        </div>
+      </div>
+  
+      <!-- Certificate 3 -->
+      <div class="certificate-card">
+        <img src="https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/721d520077c9.jpeg" alt="Certificate 3" class="certificate-image" />
+        <div class="certificate-content">
+          <h3 class="certificate-title">Azure_104</h3>
+          <p>Issued by MagicBus Foundation</p>
+          <!-- <a href="https://your-live-certificate-link3.com" target="_blank" class="certificate-link">View Certificate</a> -->
+        </div>
+      </div>
+  
+      <!-- Certificate 4 -->
+      <div class="certificate-card">
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQGrmoSFNfF4zA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1696603284050?e=2147483647&v=beta&t=vN3bKREj5Gz0CTzyK8t-DVpo0ghzVm7k_a_fyY80ff0" alt="Certificate 4" class="certificate-image" />
+        <div class="certificate-content">
+          <h3 class="certificate-title">Python for Everybody</h3>
+          <p>Issued by University of Michigan</p>
+          <!-- <a href="https://your-live-certificate-link4.com" target="_blank" class="certificate-link">View Certificate</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- achivement -->
+  <section class="achievements-section" id="achivement">
+    <h2>My Achievements</h2>
+  
+    <div class="achievement-card">
+      <h3>Frontend Development</h3>
+      <div class="progress-bar-container">
+        <div class="progress-bar frontend" id="frontend" data-progress="85"></div>
+      </div>
+      <div class="star-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star empty">★</span>
+      </div>
+    </div>
+  
+    <div class="achievement-card">
+      <h3>Python Programming</h3>
+      <div class="progress-bar-container">
+        <div class="progress-bar python" id="python" data-progress="75"></div>
+      </div>
+      <div class="star-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star empty">★</span>
+        <span class="star empty">★</span>
+      </div>
+    </div>
+  
+    <div class="achievement-card">
+      <h3>Web Design</h3>
+      <div class="progress-bar-container">
+        <div class="progress-bar web-design" id="web-design" data-progress="90"></div>
+      </div>
+      <div class="star-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+      </div>
+    </div>
+  
+    <div class="achievement-card">
+      <h3>Git & GitHub</h3>
+      <div class="progress-bar-container">
+        <div class="progress-bar git" id="git" data-progress="80"></div>
+      </div>
+      <div class="star-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star empty">★</span>
+      </div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+  <!-- services -->
+  <div class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <!-- <img src="https://via.placeholder.com/100" alt="Service 1" class="service-icon" /> -->
+        <h3 class="service-title">Web Development</h3>
+        <p class="service-description">We provide top-notch web development services using the latest technologies to build responsive and user-friendly websites.</p>
+      </div>
+  
+      <div class="service-card">
+        <!-- <img src="https://via.placeholder.com/100" alt="Service 2" class="service-icon" /> -->
+        <h3 class="service-title">App Development</h3>
+        <p class="service-description">Our team specializes in building mobile applications for iOS and Android platforms that are intuitive and scalable.</p>
+      </div>
+  
+      <div class="service-card">
+        <!-- <img src="https://via.placeholder.com/100" alt="Service 3" class="service-icon" /> -->
+        <h3 class="service-title">SEO Services</h3>
+        <p class="service-description">We optimize websites to rank higher on search engines, driving more organic traffic and improving online visibility.</p>
+      </div>
+  
+      <div class="service-card">
+        <!-- <img src="https://via.placeholder.com/100" alt="Service 4" class="service-icon" /> -->
+        <h3 class="service-title">Digital Marketing</h3>
+        <p class="service-description">Our digital marketing strategies help businesses reach their target audience, increase brand awareness, and drive conversions.</p>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div class="contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="d0dd2439-1320-41a7-9f53-d07cbf68e98a" />
+  
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="role">Select Your Role</label>
+        <select id="role" name="role" required>
+          <option value="" disabled selected>Select a role</option>
+          <option value="frontend">Frontend Developer</option>
+          <option value="backend">Backend Developer</option>
+          <option value="fullstack">Full Stack Developer</option>
+          <option value="designer">UI/UX Designer</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Enter your location" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="timing">Preferred Timing</label>
+        <input type="text" id="timing" name="timing" placeholder="e.g. 10 AM - 5 PM" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type your message..." rows="5" required></textarea>
+      </div>
+  
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </div>
+  
+  
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About</h3>
+        <p>I'm a passionate developer focused on crafting beautiful, responsive, and dynamic web experiences.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Email: tarunsai04062002@gmailmail.com</p>
+        <p>Phone: +91 8142253035</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Tarunsai Madhari. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  
+
+</body>
+</html>
